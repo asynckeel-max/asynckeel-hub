@@ -49,8 +49,32 @@ Standardized pagination support for scalable list endpoints and better API clien
 > “It feels like a practical starting point for API-first startups, not just another demo boilerplate.”
 > — *Indie Developer*
 
-## Pricing Section Note
-Pricing details are defined in [`marketing/pricing-strategy.md`](pricing-strategy.md). Use that page to align landing-page pricing blocks and launch offers.
+## Pricing Section
+
+### 🆓 Starter — Free
+- Core FastAPI scaffold
+- JWT auth basics
+- Community support
+[Get Started for Free →]
+
+### 🚀 Indie — $79 one-time
+- Everything in Starter
+- Full auth module (hardened flows, email verification, password reset)
+- Production templates (logging, monitoring, deployment)
+- Advanced API modules
+- 1 year of updates
+- Email support
+[Buy Once, Build Forever →]
+
+### 🏢 Studio — $199 one-time
+- Everything in Indie
+- Unlimited projects & developers
+- Team onboarding guide
+- Lifetime updates
+- Priority email support
+[Get Studio License →]
+
+**No subscriptions. No recurring fees. Pay once, own it forever.**
 
 ## Footer CTA
 **Ready to launch faster?**

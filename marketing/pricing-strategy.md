@@ -1,87 +1,73 @@
 # 💸 AsyncKeel Pricing Strategy
 
 ## Pricing Philosophy
-AsyncKeel should stay indie-friendly while supporting sustainable development. The model should combine:
-- **Free/Open Source entry** for trust and adoption
-- **Paid Pro/Team value** for speed, support, and advanced capabilities
-- **Clear upgrade path** as projects move from solo MVP to team operations
+AsyncKeel follows a **one-time payment** model: **pay once, own it forever**.
 
-### One-Time vs Subscription
-- **Core code access** can be offered as a one-time purchase (developer-friendly, low friction).
-- **Ongoing value** (updates, premium modules, support, templates) should be subscription-based for recurring sustainability.
-- Recommended hybrid model: one-time license + optional recurring support/update plans.
+This keeps buying decisions simple for indie developers, removes recurring billing friction, and clearly positions AsyncKeel as an ownership-first alternative to SaaS fatigue. The message is straightforward: you invest once in the backend foundation, then build on it long term.
 
-## Recommended Tiers
+## Pricing Tiers (One-Time)
 
-### 1) Free / Open Source Tier
-**Who it is for**: Solo developers validating ideas.
+### 🆓 Starter — $0 (Free/Open Source)
+**Who it is for**: Developers validating ideas and learning the AsyncKeel workflow.
 
 **Includes**:
 - Core FastAPI scaffold
-- SQLAlchemy + PostgreSQL integration
-- Basic JWT auth flow
-- Community docs
-- Community support (issues/discussions)
+- Community documentation
+- Community support
 
-### 2) Pro Tier
-**Who it is for**: Indie founders shipping MVPs and early revenue products.
+### 🚀 Indie — $79 (one-time)
+**Who it is for**: Indie founders shipping MVPs and early-revenue products.
 
-**Includes everything in Free, plus**:
-- Extended auth modules (hardened flows, examples)
-- Production templates (logging, monitoring, deployment patterns)
-- Advanced API modules and starter patterns
-- Priority documentation updates
-- Email support / office-hour style support
+**Includes everything in Starter, plus**:
+- Full auth modules
+- Production templates
+- 1 year of updates
+- Email support
 
-### 3) Team / Enterprise Tier
-**Who it is for**: Teams scaling products and requiring collaboration and governance.
+### 🏢 Studio — $199 (one-time)
+**Who it is for**: Small teams and studios shipping multiple products.
 
-**Includes everything in Pro, plus**:
-- Team onboarding guides and architecture support
-- SLA-backed support options
-- Private implementation guidance
-- Security and compliance consultation path
-- Custom integration advisory
+**Includes everything in Indie, plus**:
+- Unlimited projects and developers
+- Team onboarding guide
+- Priority support
+- Lifetime updates
 
-## Suggested Price Ranges
+## Pricing Rationale
+The one-time tiers are designed to stay competitive with known boilerplate benchmarks while keeping AsyncKeel indie-friendly:
 
-### Free / Open Source
-- **Price**: $0
-- **Rationale**: Maximizes top-of-funnel adoption and credibility.
+- **Shipfast**: typically around **$199** one-time
+- **SaaS Pegasus**: commonly around **$299** one-time
+- **Bullet Train**: positioned as a premium boilerplate reference in the same market category
 
-### Pro
-- **One-time**: $99–$299 per project or developer license
-- **Optional subscription**: $19–$49/month for updates + premium support
-- **Rationale**: Aligns with indie budgets while pricing based on time saved.
+AsyncKeel pricing is intentionally below or aligned with common one-time boilerplate expectations while focusing on backend-first production readiness with FastAPI.
 
-### Team / Enterprise
-- **Subscription**: $199–$999/month depending on support depth and team size
-- **Annual option**: custom quote with discount
-- **Rationale**: Captures high-touch value for teams needing reliability and direct help.
+## What’s Not Included
+- No recurring fee
+- No per-seat fee
+- No hosting or infrastructure costs
 
-## Competitor Pricing Snapshot (SaaS Boilerplate Market)
+AsyncKeel pricing covers the codebase and documentation package only.
 
-- **Open-source starters**: $0 upfront, but higher integration/maintenance cost.
-- **One-time boilerplates**: often ~$99–$499, usually with limited long-term support.
-- **Premium platforms/toolkits**: can exceed $50/month to $500+/month for team features.
-
-### AsyncKeel Positioning
-- Price below enterprise-heavy platforms for indie accessibility.
-- Offer stronger backend-first depth than generic templates.
-- Differentiate through FastAPI specialization and production readiness.
-
-## Launch Pricing Strategy
+## Launch Strategy
 
 ### Early-Bird Offer
-- 20–40% off Pro one-time tier for first launch window (e.g., first 100 customers).
-- Time-boxed bonuses: migration playbook, launch checklist, private Q&A session.
+- **Indie: $49**
+- **Studio: $129**
+- Valid for the first 48 hours or first 100 customers
 
-### Product Hunt Launch Pricing
-- Clear, simple launch offer (e.g., Pro lifetime license at temporary discount).
-- Add urgency with a limited-time deadline.
-- Pair with a “build in public” update thread showing real milestones.
+### Product Hunt Day Offer
+- Publish a launch-day-only one-time discount
+- Keep pricing simple and urgency clear with a hard deadline
 
-### Upgrade Strategy
-- Keep Free tier genuinely useful.
-- Gate high-leverage speed/support features in Pro.
-- Use case studies and onboarding outcomes to drive Team tier upgrades.
+### Build in Public Milestone Discounts
+- Run limited discounts at public milestones (for example: release recap, feature milestone, case study milestone)
+- Use transparent progress updates to build trust and conversion momentum
+
+## Why Not Subscription?
+Indie developers are increasingly subscription-fatigued. A one-time model reduces trust barriers, makes costs predictable, and signals product confidence: you buy the asset once and keep it.
+
+## Payment Infrastructure Options
+- **Gumroad**: Fast setup, creator-friendly storefront, simple digital delivery
+- **LemonSqueezy**: Merchant-of-record convenience for tax/compliance handling
+- **Stripe**: Flexible direct checkout and custom purchase flow integration
